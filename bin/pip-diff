@@ -101,6 +101,8 @@ def diff(r1, r2, include_fresh=False, include_stale=False, excludes=None):
 def main():
     args = docopt(__doc__, version='pip-diff')
 
+
+
     kwargs = {
         'r1': args['<reqfile1>'],
         'r2': args['<reqfile2>'],
